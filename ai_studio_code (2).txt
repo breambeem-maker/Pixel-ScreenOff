@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Screen Off</string>
+    <string name="tile_label">Screen Off</string>
+</resources>

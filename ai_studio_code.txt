@@ -1,0 +1,21 @@
+ScreenOffApp/
+├── .github/
+│   └── workflows/
+│       └── build.yml               <-- สั่งให้ GitHub ประกอบไฟล์ APK อัตโนมัติ
+├── app/
+│   ├── build.gradle.kts
+│   └── src/
+│       └── main/
+│           ├── AndroidManifest.xml
+│           ├── java/
+│           │   └── com/
+│           │       └── example/
+│           │           └── screenoff/
+│           │               ├── BlackScreenActivity.kt
+│           │               └── ScreenOffTileService.kt
+│           └── res/
+│               └── values/
+│                   ├── strings.xml
+│                   └── themes.xml
+├── build.gradle.kts
+└── settings.gradle.kts
